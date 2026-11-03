@@ -15,9 +15,7 @@ public class MyBank {
 
 
         System.out.println();
-        for (int i = 0; i < VassoBank.counter; i++) {
-            System.out.println(VassoBank.accList[i]);
-        }
+        VassoBank.printAccounts();
         
         System.out.println();
         VassoBank.addMoney(1999, 85.50);

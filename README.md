@@ -10,6 +10,7 @@ A small Java console program that simulates basic bank account management. It re
 - Count the accounts with a balance below a given limit
 - Find the account with the highest balance
 - Search for an account by its account number
+- Input checks: amounts must be positive and a withdrawal cannot exceed the account's balance
 - Clear messages for unknown account numbers and duplicate registrations
 
 ## Tech Stack
